@@ -1,0 +1,31 @@
+.albumimages {
+    width: 480px;
+    height: 480px;
+    border: 1px solid black;
+    margin: 30px;
+}
+.albumbody {
+    flex: 1 1 auto;
+    width: 500px;
+    height: 540px;
+    background-color: #202020;
+}
+.tituloalbum {
+    font-size: 25px;
+    font-style: italic;
+}
+.textoalbum {
+    margin-left: 55px;
+    margin-top: 30px;
+    color: white;
+}
+.listatracks {
+    font-size: 20px;
+    font-style: oblique;
+    columns: 3;
+    column-gap: 30px;
+    margin-top: 30px;
+}
+.listatracks li {
+    margin-right: 30px;
+}
